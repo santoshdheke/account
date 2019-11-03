@@ -1,0 +1,25 @@
+{
+    "name": "santosh/account",
+    "type": "labraary",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "santosh",
+            "email": "santoshdheke46@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SsGroup\\Account\\AccountServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "SsGroup\\Account\\": "src/"
+        }
+    }
+}
